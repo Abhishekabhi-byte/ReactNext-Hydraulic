@@ -1,0 +1,314 @@
+/* components/WhyChooseUs.css */
+
+.aurora-why-section {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #061026, #0d1f3c);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animated background effect */
+.aurora-why-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(0, 148, 255, 0.1) 0%, transparent 70%);
+    animation: auroraPulse 8s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes auroraPulse {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+}
+
+.aurora-why-container {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.aurora-why-header {
+    margin-bottom: 60px;
+    animation: fadeInDown 0.8s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aurora-why-badge {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.aurora-why-badge:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+    border-color: rgba(0, 148, 255, 0.6);
+}
+
+.aurora-why-header h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #fff, #0094ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+    0%, 100% {
+        background-size: 100% 100%;
+    }
+    50% {
+        background-size: 200% 100%;
+    }
+}
+
+.aurora-why-header p {
+    color: rgba(255, 255, 255, 0.8);
+    /* max-width: 600px; */
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.aurora-why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aurora-why-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 35px 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.aurora-why-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent, rgba(0, 148, 255, 0.2), transparent);
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateX(-100%);
+}
+
+.aurora-why-card:hover::before {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+.aurora-why-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #0094ff, #0046c2);
+    transition: width 0.3s ease;
+}
+
+.aurora-why-card:hover::after {
+    width: 100%;
+}
+
+.aurora-why-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 148, 255, 0.3);
+}
+
+.aurora-why-card .icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.aurora-why-card:hover .icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.aurora-why-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.aurora-why-card:hover h3 {
+    color: #0094ff;
+}
+
+.aurora-why-card p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+.aurora-why-card:hover p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .aurora-why-section {
+        padding: 70px 20px;
+    }
+    
+    .aurora-why-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .aurora-why-header h2 {
+        font-size: 32px;
+    }
+    
+    .aurora-why-card {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .aurora-why-section {
+        padding: 60px 15px;
+    }
+    
+    .aurora-why-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .aurora-why-header {
+        margin-bottom: 40px;
+    }
+    
+    .aurora-why-header h2 {
+        font-size: 28px;
+    }
+    
+    .aurora-why-header p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    .aurora-why-card {
+        padding: 25px 20px;
+        text-align: center;
+    }
+    
+    .aurora-why-card .icon {
+        font-size: 38px;
+    }
+    
+    .aurora-why-card h3 {
+        font-size: 18px;
+    }
+    
+    .aurora-why-card p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aurora-why-section {
+        padding: 50px 12px;
+    }
+    
+    .aurora-why-header h2 {
+        font-size: 24px;
+    }
+    
+    .aurora-why-badge {
+        font-size: 12px;
+        padding: 4px 12px;
+    }
+    
+    .aurora-why-card {
+        padding: 20px 15px;
+    }
+    
+    .aurora-why-card .icon {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    
+    .aurora-why-card h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .aurora-why-card p {
+        font-size: 12px;
+    }
+}
+
+/* Staggered animation for cards */
+.aurora-why-card:nth-child(1) { animation-delay: 0.1s; }
+.aurora-why-card:nth-child(2) { animation-delay: 0.2s; }
+.aurora-why-card:nth-child(3) { animation-delay: 0.3s; }
+.aurora-why-card:nth-child(4) { animation-delay: 0.4s; }
+.aurora-why-card:nth-child(5) { animation-delay: 0.5s; }
+.aurora-why-card:nth-child(6) { animation-delay: 0.6s; }
+
+.aurora-why-card {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Add smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}

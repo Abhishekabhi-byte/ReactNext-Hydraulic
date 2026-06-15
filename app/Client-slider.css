@@ -1,0 +1,207 @@
+/* components/BrandsSlider.css */
+
+/* Section Styles */
+.aurora-logo-slider {
+    overflow: hidden;
+    padding: 60px 20px 40px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    position: relative;
+}
+
+/* Title Styles */
+.aurora-logo-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #3078f5;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.aurora-logo-title span {
+    color: #061026;
+}
+
+.aurora-logo-title::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(90deg, #3078f5, #00b3ff);
+    border-radius: 2px;
+}
+
+/* Slider Wrapper */
+.aurora-logo-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+/* Track Styles */
+.aurora-logo-track {
+    display: flex;
+    width: max-content;
+    animation: logoScroll 34s linear infinite;
+    gap: 20px;
+}
+
+/* Pause animation on hover */
+.aurora-logo-slider:hover .aurora-logo-track {
+    animation-play-state: paused;
+}
+
+/* Slide Styles */
+.aurora-logo-slide {
+    flex: 0 0 auto;
+    width: 180px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.aurora-logo-slide img {
+    max-width: 100%;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.aurora-logo-slide img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Animation */
+@keyframes logoScroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive Styles */
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .aurora-logo-slider {
+        padding: 50px 15px 30px;
+    }
+    
+    .aurora-logo-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    
+    .aurora-logo-title::after {
+        width: 50px;
+        bottom: -8px;
+    }
+    
+    .aurora-logo-slide {
+        width: 140px;
+        margin: 0 10px;
+    }
+    
+    .aurora-logo-slide img {
+        max-height: 60px;
+    }
+    
+    .aurora-logo-track {
+        animation-duration: 20s;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .aurora-logo-slider {
+        padding: 40px 10px 25px;
+    }
+    
+    .aurora-logo-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    
+    .aurora-logo-title::after {
+        width: 40px;
+    }
+    
+    .aurora-logo-slide {
+        width: 120px;
+        margin: 0 8px;
+    }
+    
+    .aurora-logo-slide img {
+        max-height: 50px;
+    }
+    
+    .aurora-logo-track {
+        animation-duration: 15s;
+    }
+}
+
+/* Small Mobile (max-width: 380px) */
+@media (max-width: 380px) {
+    .aurora-logo-slide {
+        width: 100px;
+        margin: 0 5px;
+    }
+    
+    .aurora-logo-slide img {
+        max-height: 45px;
+    }
+    
+    .aurora-logo-track {
+        animation-duration: 12s;
+    }
+}
+
+/* Optional: Add gradient fade effect on edges */
+.aurora-logo-wrapper::before,
+.aurora-logo-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.aurora-logo-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, #f8f9fa, transparent);
+}
+
+.aurora-logo-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, #f8f9fa, transparent);
+}
+
+/* Optional: Remove fade effect on mobile */
+@media (max-width: 768px) {
+    .aurora-logo-wrapper::before,
+    .aurora-logo-wrapper::after {
+        width: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aurora-logo-wrapper::before,
+    .aurora-logo-wrapper::after {
+        width: 20px;
+    }
+}

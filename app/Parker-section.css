@@ -1,0 +1,275 @@
+/* components/ParkerSection.css */
+
+/* SECTION */
+.about-parkr-section {
+    padding: 60px 20px;
+    background: #f5f7fa;
+}
+
+/* WRAPPER */
+.about-parkr-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* IMAGE CARD */
+.about-parkr-image-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-parkr-image-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-parkr-image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.about-parkr-image-card:hover img {
+    transform: scale(1.05);
+}
+
+/* CONTENT CARD */
+.about-parkr-content-card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-parkr-content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* TEXT */
+.about-parkr-badge {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.about-parkr-badge:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.about-parkr-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.about-parkr-text {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* LIST */
+.about-parkr-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.about-parkr-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #444;
+    padding-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.about-parkr-list li:hover {
+    transform: translateX(5px);
+    color: #007bff;
+}
+
+.about-parkr-list li::before {
+    content: "✔";
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* BUTTON */
+.about-parkr-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-parkr-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .about-parkr-wrapper {
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .about-parkr-title {
+        font-size: 24px;
+    }
+    
+    .about-parkr-content-card {
+        padding: 30px;
+    }
+}
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .about-parkr-section {
+        padding: 50px 20px;
+    }
+    
+    .about-parkr-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .about-parkr-content-card {
+        padding: 30px;
+    }
+    
+    .about-parkr-title {
+        font-size: 24px;
+    }
+    
+    .about-parkr-image-card {
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .about-parkr-section {
+        padding: 40px 15px;
+    }
+    
+    .about-parkr-content-card {
+        padding: 20px;
+    }
+    
+    .about-parkr-title {
+        font-size: 20px;
+    }
+    
+    .about-parkr-text {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .about-parkr-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-parkr-list li {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    
+    .about-parkr-badge {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+}
+
+/* Small Mobile (max-width: 380px) */
+@media (max-width: 380px) {
+    .about-parkr-title {
+        font-size: 18px;
+    }
+    
+    .about-parkr-content-card {
+        padding: 18px;
+    }
+    
+    .about-parkr-text {
+        font-size: 12px;
+    }
+    
+    .about-parkr-list li {
+        font-size: 12px;
+    }
+}
+
+/* Animation on scroll */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-parkr-section {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Optional: Add a subtle gradient border */
+.about-parkr-content-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-parkr-content-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #007bff, #00b3ff);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.about-parkr-content-card:hover::before {
+    transform: scaleX(1);
+}

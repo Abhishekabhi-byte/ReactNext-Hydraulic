@@ -1,0 +1,74 @@
+/* components/TextSlideSection.css */
+
+.text-slide-section {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.text-slide-track {
+    display: flex;
+    white-space: nowrap;
+    animation: textSlideMove 25s linear infinite;
+}
+
+.text-slide-track:hover {
+    animation-play-state: paused;
+}
+
+.text-slide-text {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-right: 80px;
+    padding: 20px 0px;
+    color: transparent;
+    -webkit-text-stroke: 1px #6c879a;
+    opacity: 0.9;
+    user-select: none;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.text-slide-text:hover {
+    -webkit-text-stroke: 1px #0094ff;
+    opacity: 1;
+}
+
+/* animation */
+@keyframes textSlideMove {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .text-slide-text {
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-slide-text {
+        font-size: 28px;
+        letter-spacing: 1px;
+        margin-right: 40px;
+        padding: 15px 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    .text-slide-text {
+        font-size: 22px;
+        margin-right: 30px;
+    }
+}

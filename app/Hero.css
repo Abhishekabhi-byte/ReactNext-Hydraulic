@@ -1,0 +1,212 @@
+/* components/HeroSection.css */
+
+.vce-row-container {
+  width: 100%;
+}
+
+.vce-row {
+  margin: 0;
+  padding: 0;
+}
+
+.vce-row-content {
+  display: flex;
+  width: 100%;
+}
+
+.vce-col {
+  width: 100%;
+}
+
+.vce-col-inner {
+  width: 100%;
+}
+
+.vce-col-content {
+  width: 100%;
+}
+
+.vce-raw-html {
+  width: 100%;
+}
+
+.vce-raw-html-wrapper {
+  width: 100%;
+}
+
+/* Hero Slider Styles */
+.heroAurora-slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.heroAurora-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 8%;
+}
+
+.heroAurora-slide.active {
+  left: 0;
+  opacity: 1;
+}
+
+.heroAurora-slide.prev {
+  left: -100%;
+}
+
+.heroAurora-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.heroAurora-content {
+  position: relative;
+  z-index: 2;
+  color: #fff !important;
+  max-width: 600px;
+  animation: heroAuroraFadeUp 1.2s ease forwards;
+  opacity: 0;
+}
+
+.heroAurora-slide.active .heroAurora-content {
+  opacity: 1;
+}
+
+.heroAurora-badge {
+  background: rgba(255, 255, 255, 0.25);
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  backdrop-filter: blur(5px);
+  color: #fff;
+}
+
+.heroAurora-title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.heroAurora-text {
+  font-size: 17px;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.heroAurora-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.heroAurora-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 15%;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+  z-index: 3;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(3px);
+}
+
+.heroAurora-nav:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.heroAurora-prev {
+  left: 40px;
+}
+
+.heroAurora-next {
+  right: 40px;
+}
+
+@keyframes heroAuroraFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .heroAurora-nav {
+    display: none !important;
+  }
+
+  .heroAurora-title {
+    font-size: 32px;
+  }
+
+  .heroAurora-text {
+    font-size: 15px;
+  }
+
+  .heroAurora-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .heroAurora-slider {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroAurora-slider {
+    height: 70vh;
+  }
+  
+  .heroAurora-title {
+    font-size: 28px;
+  }
+  
+  .heroAurora-badge {
+    font-size: 12px;
+  }
+  
+  .heroAurora-text {
+    font-size: 14px;
+  }
+  
+  .heroAurora-btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

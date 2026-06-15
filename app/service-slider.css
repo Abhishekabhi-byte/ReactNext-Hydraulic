@@ -1,0 +1,305 @@
+/* components/ServicesSection.css */
+
+.aurora-service-slider {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+  text-align: center;
+  background: url('https://aurorashipping.net/wp-content/uploads/2025/11/Home-page-0.jpeg') no-repeat center/cover;
+}
+
+.aurora-service-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 16, 38, 0.85);
+  z-index: 1;
+}
+
+.aurora-service-header {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.aurora-service-badge {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  color: #fff;
+  background: transparent;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.aurora-service-badge:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.aurora-service-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.aurora-service-carousel {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.aurora-service-track {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  gap: 30px;
+  cursor: grab;
+}
+
+.aurora-service-track:active {
+  cursor: grabbing;
+}
+
+.aurora-service-slide {
+  flex: 0 0 calc(33.333% - 20px);
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aurora-service-slide:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.aurora-service-slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.aurora-service-slide:hover img {
+  transform: scale(1.05);
+}
+
+.aurora-service-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  color: #fff;
+  text-align: left;
+}
+
+.aurora-service-caption h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.aurora-learn {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: inline-block;
+}
+
+.aurora-learn:hover {
+  color: #0094ff;
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+
+.aurora-service-prev,
+.aurora-service-next {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 3;
+  transition: all 0.3s ease;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.aurora-service-prev:hover,
+.aurora-service-next:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.aurora-service-prev {
+  left: -20px;
+}
+
+.aurora-service-next {
+  right: -20px;
+}
+
+.aurora-service-btn-wrap {
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.aurora-service-btn {
+  background: #0094ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.aurora-service-btn:hover {
+  background: #0076d9;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 148, 255, 0.4);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .aurora-service-slide {
+    flex: 0 0 calc(50% - 20px);
+  }
+  
+  .aurora-service-heading {
+    font-size: 32px;
+  }
+  
+  .aurora-service-carousel {
+    width: 90%;
+  }
+  
+  .aurora-service-prev {
+    left: -10px;
+  }
+  
+  .aurora-service-next {
+    right: -10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aurora-service-slider {
+    padding: 60px 0;
+  }
+  
+  .aurora-service-slide {
+    flex: 0 0 100%;
+  }
+  
+  .aurora-service-heading {
+    font-size: 24px;
+  }
+  
+  .aurora-service-badge {
+    font-size: 12px;
+  }
+  
+  .aurora-service-carousel {
+    width: 85%;
+  }
+  
+  .aurora-service-prev,
+  .aurora-service-next {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  
+  .aurora-service-prev {
+    left: -15px;
+  }
+  
+  .aurora-service-next {
+    right: -15px;
+  }
+  
+  .aurora-service-caption h3 {
+    font-size: 16px;
+  }
+  
+  .aurora-service-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aurora-service-slider {
+    padding: 40px 0;
+  }
+  
+  .aurora-service-heading {
+    font-size: 20px;
+  }
+  
+  .aurora-service-carousel {
+    width: 90%;
+  }
+  
+  .aurora-service-slide img {
+    height: 200px;
+  }
+  
+  .aurora-service-caption {
+    padding: 15px;
+  }
+  
+  .aurora-service-caption h3 {
+    font-size: 14px;
+  }
+  
+  .aurora-learn {
+    font-size: 12px;
+  }
+  
+  .aurora-service-prev,
+  .aurora-service-next {
+    display: none;
+  }
+}
+
+/* Animation for slides */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aurora-service-slide {
+  animation: slideIn 0.5s ease-out;
+}

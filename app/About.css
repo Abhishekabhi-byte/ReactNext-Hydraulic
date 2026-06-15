@@ -1,0 +1,220 @@
+/* components/AboutSection.css */
+
+/* TOP LINE */
+.about-top-line {
+    height: 6px;
+    background: linear-gradient(90deg, #0046c2, #0094ff);
+}
+
+/* MAIN SECTION */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    gap: 50px;
+    background: #f8fbff;
+    flex-wrap: wrap;
+}
+
+/* LEFT SIDE */
+.about-images {
+    flex: 1;
+    width: 100%;
+    max-width: 450px;   /* control size on desktop */
+    margin: 0 auto;     /* center nicely */
+}
+
+.about-card {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-6px);
+}
+
+.about-card img {
+    width: 100%;
+    height: auto;           /* responsive */
+    aspect-ratio: 4/5;      /* consistent shape */
+    object-fit: cover;
+}
+
+/* RIGHT SIDE */
+.about-content {
+    flex: 1;
+    width: 100%;
+}
+
+.about-badge {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;          
+    width: fit-content;
+    margin: 0 0 10px 0;          
+    padding: 6px 14px;
+    color: #0094ff;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 26px;
+    transition: all .3s;
+}
+
+.about-badge:hover {
+    background: #031624;
+    color: #f5eded;
+}
+
+.about-heading {
+    text-align: left;
+    font-size: 38px;
+    font-weight: 800;
+    color: #052552;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.about-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* FEATURE BOX */
+.about-feature-box {
+    background: #e8f4ff;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-feature-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #052552;
+}
+
+.about-feature-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-feature-box li {
+    padding-left: 22px;
+    position: relative;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+.about-feature-box li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #0094ff;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.about-btn {
+    display: inline-block;
+    background: #0094ff;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    background: #0077cc;
+    transform: translateY(-2px);
+}
+
+/* ========================= */
+/* 📱 TABLET (<=1024px) */
+/* ========================= */
+@media (max-width: 1024px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 6%;
+        gap: 40px;
+    }
+
+    .about-heading {
+        font-size: 32px;
+    }
+    
+    .about-images {
+        max-width: 400px;
+    }
+}
+
+/* ========================= */
+/* 📱 MOBILE (<=768px) */
+/* ========================= */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 40px 5%;
+    }
+
+    .about-images {
+        max-width: 100%;   /* full width on mobile */
+    }
+
+    .about-heading {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .about-feature-box {
+        text-align: left;
+    }
+    
+    .about-badge {
+        font-size: 16px;
+    }
+}
+
+/* ========================= */
+/* 📱 SMALL MOBILE (<=480px) */
+/* ========================= */
+@media (max-width: 480px) {
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-badge {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .about-text {
+        font-size: 13px;
+    }
+
+    .about-btn {
+        width: 70%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .about-feature-box li {
+        font-size: 13px;
+    }
+}

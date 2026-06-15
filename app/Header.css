@@ -1,0 +1,405 @@
+/* components/Header.css - Updated with fixes */
+
+/* HEADER TOP - Fixed gradient bar */
+.header-top {
+  display: block;
+  height: 8px;
+  background: linear-gradient(90deg, #0046c2, #0094ff);
+  width: 100%;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 18px 5%;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 20;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* LOGO */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 61px;
+  width: 190px;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+}
+
+.navbar-logo img:hover {
+  transform: scale(1.05);
+}
+
+/* MENU */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.2s ease;
+  display: inline-block;
+}
+
+.nav-item a:hover {
+  color: #0094ff;
+}
+
+/* Underline effect for desktop */
+@media (min-width: 1000px) {
+  .nav-item a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0094ff;
+    transition: width 0.3s ease;
+  }
+
+  .nav-item a:hover::after {
+    width: 100%;
+  }
+}
+
+/* ACTIVE LINK */
+.active {
+  color: #0094ff !important;
+  font-weight: 600;
+}
+
+.active::after {
+  width: 100% !important;
+}
+
+/* DROPDOWN STYLES */
+.has-dropdown {
+  position: relative;
+}
+
+.dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.dropdown-arrow {
+  font-size: 12px;
+  cursor: pointer;
+  color: #666;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  user-select: none;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 220px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 8px 0;
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.dropdown li {
+  list-style: none;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdown li a:hover {
+  background: #f5f7fa;
+  color: #0094ff;
+}
+
+.dropdown li a::after {
+  display: none;
+}
+
+/* Desktop hover dropdown */
+@media (min-width: 1000px) {
+  .has-dropdown:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .has-dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+}
+
+/* HAMBURGER MENU BUTTON */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+  z-index: 30;
+  color: #0046c2;
+  transition: color 0.2s ease;
+}
+
+.menu-toggle:hover {
+  color: #0094ff;
+}
+
+.hamburger-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle:hover .hamburger-icon {
+  transform: scale(1.1);
+}
+
+/* MOBILE STYLES */
+@media (max-width: 999px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 80%;
+    max-width: 350px;
+    height: 100vh;
+    background: #fff;
+    flex-direction: column;
+    padding: 20px 24px 40px;
+    transition: left 0.3s ease-in-out;
+    gap: 0;
+    z-index: 1000;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+  }
+
+  .nav-menu.menu-open {
+    left: 0;
+  }
+
+  /* Mobile Close Button */
+  .mobile-close-btn {
+    display: block;
+    text-align: right;
+    padding: 10px 0;
+    border-bottom: none;
+    margin-bottom: 20px;
+  }
+
+  .mobile-close-btn button {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #0046c2;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-close-btn button:hover {
+    color: #0094ff;
+    transform: scale(1.1);
+  }
+
+  .nav-item {
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+  }
+
+  .nav-item a {
+    display: block;
+    padding: 16px 0;
+    font-size: 16px;
+  }
+
+  .dropdown-trigger {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+  }
+
+  .dropdown-trigger a {
+    padding: 16px 0 !important;
+    flex: 1;
+  }
+
+  .dropdown-arrow {
+    font-size: 16px;
+    padding: 16px 8px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    display: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+    background: #f9fafb;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .dropdown-open {
+    display: block !important;
+  }
+
+  .dropdown li a {
+    padding: 12px 20px;
+    font-size: 14px;
+    margin-left: 16px;
+  }
+
+  .dropdown li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Rotate arrow when dropdown is open on mobile */
+  .has-dropdown.open .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+}
+
+/* Desktop - Hide mobile close button */
+@media (min-width: 1000px) {
+  .mobile-close-btn {
+    display: none;
+  }
+}
+
+/* BACKDROP - Dark overlay */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* RESPONSIVE FIXES */
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .nav-menu {
+    gap: 20px;
+  }
+  
+  .navbar {
+    padding: 18px 3%;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 12px 4%;
+  }
+  
+  .navbar-logo img {
+    height: 48px;
+    width: 150px;
+  }
+  
+  .nav-menu {
+    width: 85%;
+    padding: 15px 20px 30px;
+  }
+  
+  .nav-item a {
+    font-size: 15px;
+    padding: 14px 0;
+  }
+  
+  .menu-toggle {
+    font-size: 24px;
+  }
+  
+  .mobile-close-btn button {
+    font-size: 24px;
+  }
+}
+
+/* Prevent body scroll when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Ensure proper z-index layering */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1001;
+}
+
+/* Fix for any overflow issues */
+* {
+  box-sizing: border-box;
+}

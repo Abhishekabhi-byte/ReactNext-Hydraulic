@@ -96,7 +96,6 @@ const Header = () => {
 
   return (
     <>
-      <div className="header-top"></div>
 
       <nav className="navbar">
         <div className="navbar-logo">

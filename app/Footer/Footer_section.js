@@ -4,6 +4,12 @@ import './Footer_section.css';
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+
+
 
 
 
@@ -26,6 +32,45 @@ const Footer = () => {
             We are a forward-thinking company focused on delivering durable, high-quality industrial solutions. 
             With strong engineering expertise and adaptive processes, we ensures efficiency even in changing market conditions.
           </p>
+     <div className="flex justify-center lg:justify-start items-center gap-4 text-xl mt-1">
+  <a
+    href="/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <FaInstagram />
+  </a>
+
+  <a
+    href="/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <FaFacebookSquare />
+  </a>
+
+  <a
+    href="/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="X (Twitter)"
+  >
+    <FaSquareXTwitter />
+  </a>
+</div>
+       
+     
         </div>
 
         {/* Quick Links */}
@@ -91,7 +136,7 @@ const Footer = () => {
         <hr />
       <div className="flex flex-col md:flex-row items-center justify-between">
         <p>© {currentYear} Resilient, All Right Reserved</p>
-          <p>Designed and Developed by Venturing Digitally Pvt Ltd.</p>
+          <p>Designed and Developed by <a href= "https://venturingdigitally.com/">Venturing Digitally Pvt Ltd.</a> </p>
         
       </div>
       </div>

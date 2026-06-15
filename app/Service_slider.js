@@ -41,7 +41,7 @@ const Services_slider = () => {
       id: 5,
       title: "Commissioning Hydraulic System",
       image: "service(2).png",
-      link: "/Service/Commissioning_Hydraulic_System"
+      link: "/Service/Commissioningof_Hydraulic_Systems"
     }
   ];
 

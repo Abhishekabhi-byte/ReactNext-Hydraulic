@@ -1,4 +1,7 @@
 // app/video_section/page.js
+
+
+
 'use client';
 
 import React, { useRef, useState } from 'react';

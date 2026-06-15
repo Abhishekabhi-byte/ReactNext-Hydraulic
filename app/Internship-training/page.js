@@ -10,7 +10,6 @@ export default function page() {
   const slides = [
     "https://hydraulic-eta.vercel.app/_next/image?url=%2Fr6.jpg&w=1920&q=75",
     "https://hydraulic-eta.vercel.app/_next/image?url=%2Fr2.jpg&w=1920&q=75",
-    "	https://hydraulic-eta.vercel.app/_next/image?url=%2Fr3.jpg&w=1920&q=75",
     "	https://hydraulic-eta.vercel.app/_next/image?url=%2Fr5.jpg&w=1920&q=75"
   ]
 
@@ -208,7 +207,7 @@ export default function page() {
         controls
        className="w-3xl h-[360px]  object-cover"
       >
-        <source src="v (1).mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dl6q4eiqn/video/upload/v1781522893/IMG_0260_1__compressed_ugawyv.mp4" type="video/mp4" />
       </video>
     </div>
 

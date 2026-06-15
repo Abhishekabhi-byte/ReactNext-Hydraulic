@@ -25,7 +25,7 @@ const Productsection = () => {
               controls
               poster="home_page_slider1.png" // Optional: Add a poster image
             >
-              <source src="resilient_institute.MP4" type="video/mp4" />
+              <source src="https://res.cloudinary.com/dl6q4eiqn/video/upload/v1781508717/resilient_institute_zsqeni.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

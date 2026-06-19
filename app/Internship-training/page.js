@@ -298,58 +298,69 @@ Hands-on working experience, real life working conditions
 </section>
 {/* cources-end */}
 
-
 {/* features-start */}
-    <section className="bg-gray-100 py-12 px-4">
+<section className="bg-[#f8fafc] py-20 px-6">
 
-      {/* Heading */}
-      <div className="text-center max-w-3xl mx-auto mb-14">
+  {/* Heading */}
+  <div className="text-center max-w-3xl mx-auto mb-16">
 
-      
+    <span className="inline-block bg-blue-100 text-blue-700 px-5 py-2 rounded-full text-sm font-semibold">
+      Why Choose Us
+    </span>
 
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-6 mb-4">
-         Our Key <span className="text-blue-500">Features</span>
-        </h2>
+    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-6 mb-5">
+      Our Key <span className="text-blue-600">Features</span>
+    </h2>
 
-        <p className="text-gray-600 text-lg leading-7">
-         Our features combine advanced engineering, quality training, industry expertise,
-          and reliable support to deliver efficient industrial solutions.
+    <p className="text-gray-600 text-lg leading-8">
+      Industry-focused training programs designed to build practical skills,
+      career opportunities, and real-world experience.
+    </p>
+
+  </div>
+
+  {/* Cards */}
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    {features.map((feature) => (
+
+      <div
+        key={feature.id}
+        className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#04214f] via-[#0a2d66] to-[#123d87] p-8 shadow-xl hover:shadow-blue-500/20 hover:-translate-y-3 transition-all duration-500"
+      >
+
+        {/* Glow Effect */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-cyan-400/10 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+
+        {/* Top Accent */}
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-400"></div>
+
+        {/* Icon */}
+        <div className="relative z-10 w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-4xl mb-6 text-cyan-300 shadow-lg group-hover:scale-110 transition duration-500">
+          {feature.icon}
+        </div>
+
+        {/* Title */}
+        <h3 className="relative z-10 text-2xl font-bold text-white mb-4">
+          {feature.title}
+        </h3>
+
+        {/* Description */}
+        <p className="relative z-10 text-blue-100 leading-7">
+          {feature.description}
         </p>
 
-      </div>
-
-      {/* Grid */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        {features.map((feature) => (
-
-          <div
-            key={feature.id}
-            className="bg-[#4498dc] p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300"
-          >
-
-            {/* Icon */}
-            <div className="text-5xl mb-3">
-              {feature.icon}
-            </div>
-
-            {/* Title */}
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">
-              {feature.title}
-            </h3>
-
-            {/* Description */}
-            <p className="text-gray-600 leading-6">
-              {feature.description}
-            </p>
-
-          </div>
-
-        ))}
+        {/* Decorative Elements */}
+        <div className="absolute -bottom-16 -right-16 w-40 h-40 bg-cyan-400/10 rounded-full blur-2xl"></div>
+        <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-full blur-xl"></div>
 
       </div>
 
-    </section>
+    ))}
+
+  </div>
+
+</section>
 {/* features-end */}
 
 

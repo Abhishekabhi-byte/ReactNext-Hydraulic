@@ -68,12 +68,12 @@ const Testingof_Pumps_Valves_Motors = () => {
         className="relative h-[85vh] flex items-center bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/index-hero-slider2.webp')",
+            "url('/index-hero-slider1.webp')",
         }}
       >
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
 
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">

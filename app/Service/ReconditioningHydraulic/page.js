@@ -22,7 +22,7 @@ const features = [
     title: "Piping & Accessories",
     image:
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
-    desc: "Piping and Accessories condition assessment and correction action implementation",
+    desc: "Piping and Accessories condition assessment and corrective action implementation",
   },
 ];
 

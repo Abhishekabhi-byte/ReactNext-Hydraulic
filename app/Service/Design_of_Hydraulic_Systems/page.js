@@ -21,7 +21,7 @@ const features = [
     title: "Manifold block design",
     image:
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
-    desc: "Disc Hydraulic Manifold block for reduced piping, hose connections, compact design, improved reliability and Safety.",
+    desc: "Hydraulic Manifold block for reduced piping, hose connections, compact design, improved reliability and Safety.",
   },
 ];
 
@@ -79,7 +79,7 @@ const Design_of_Hydraulic_Systems = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
 
           <span className="uppercase tracking-[4px] text-blue-400 font-semibold">
-            Hydraulic Engineering Solutions
+Design of Hydraulic Systems
           </span>
 
           <h1 className="text-4xl md:text-7xl font-black mt-5 leading-tight">
@@ -324,7 +324,7 @@ const Design_of_Hydraulic_Systems = () => {
 
             <textarea
               rows="5"
-              placeholder="Describe Your Hydraulic Testing Requirement"
+              placeholder="Describe Your Design of Hydraulic Requirement"
               className="md:col-span-2 text-white border border-gray-500 rounded-xl px-5 py-2 outline-none focus:border-blue-500 resize-none"
             ></textarea>
 

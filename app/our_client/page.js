@@ -42,6 +42,7 @@ export default function ClientsPage() {
         "Indian_rail-client.jpeg",
         button: "View Projects",
         link: "/projects/tata-steel",
+ className: "h-32 w-auto object-contain",
     },
      {
    
@@ -82,7 +83,7 @@ export default function ClientsPage() {
         "tata-steel.jpg",
          button: "View Projects",
          link: "/projects/tata-steel",
-         className: "w-32 sm:w-12 md:w-80  h-auto object-contain",
+        className: "w-32 sm:w-12 md:w-60  h-auto object-contain",
     },
      {
    
@@ -121,7 +122,7 @@ export default function ClientsPage() {
 
           <p className="max-w-2xl mx-auto text-gray-300 mt-6 text-lg leading-8">
            Our clients trust us for advanced engineering, 
-           reliable parts quality service, and industrial excellence.
+           reliable parts quality service and industrial excellence.
           </p>
         </div>
       </section>
@@ -163,13 +164,13 @@ export default function ClientsPage() {
                 className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500 hover:-translate-y-3 flex items-center justify-center "
               >
                 {/* Image */}
-                <div className="overflow-hidden  flex items-center justify-center ">
-                  <img
-                    src={client.image}
-                    alt={client.name}
-                    className={client.className ? client.className : "w-full h-full object-contain"}
-                  />
-                </div>
+               <div className="h-40 w-full flex items-center justify-center overflow-hidden">
+  <img
+    src={client.image}
+    alt={client.name}
+    className={client.className ? client.className : "max-h-full max-w-full object-contain"}
+  />
+</div>
 
                 </div>
              
@@ -178,47 +179,7 @@ export default function ClientsPage() {
         </div>
       </section>
 
-      {/* Logo Strip */}
-      {/* <section className="bg-white py-16 border-y">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h3 className="text-2xl font-bold text-[#0a192f] mb-10">
-            Trusted By Leading Brands
-          </h3>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center">
-            {["TATA", "L&T", "AMAZON", "JSW", "RELIANCE", "ADANI"].map(
-              (logo, index) => (
-                <div
-                  key={index}
-                  className="bg-gray-100 rounded-2xl py-6 text-gray-700 font-bold text-lg hover:bg-blue-600 hover:text-white transition duration-300"
-                >
-                  {logo}
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section> */}
-
-      {/* CTA */}
-      {/* <section className="bg-[#0a192f] text-center py-24 px-6 text-center text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10"></div>
-
-        <div className="max-w-4xl mx-auto relative z-10">
-          <h3 className="text-4xl md:text-5xl font-black leading-tight mb-6">
-            Let’s Build Something Amazing Together
-          </h3>
-
-       
-
-          <a
-            href="/Contact-us"
-            className="inline-block bg-blue-500 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl text-lg font-semibold transition duration-300 hover:scale-105"
-          >
-            Contact Us
-          </a>
-        </div>
-      </section> */}
+ 
     </div>
   );
 }

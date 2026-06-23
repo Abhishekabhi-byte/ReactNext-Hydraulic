@@ -6,10 +6,10 @@ const About_us = () => {
     <>
       {/* Hero Section */}
       <section
-        className="relative h-[70vh] flex items-center text-white bg-cover bg-center bg-fixed"
+        className="relative h-[80vh] flex items-center text-white bg-cover bg-center bg-top bg-fixed"
         style={{
           backgroundImage:
-            "url('about-hydraulic-banner.png')",
+            "url('troubleshooting.png')",
         }}
       >
         {/* Overlay */}
@@ -145,13 +145,11 @@ services under one roof. Today, the company stands as one of the pioneering tech
 
         <div className="max-w-4xl mx-auto">
 
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready to Automate Your Business?
-          </h2>
+          <h3 className="text-4xl md:text-5xl font-bold mb-6">
+           Ready to get cutting edge Hydraulics supplies and support
+          </h3>
 
-          <p className="text-gray-300 mb-8 text-lg">
-            Join over 5,000+ satisfied industrial clients worldwide.
-          </p>
+          
 
           <a
             href="Contact-us"

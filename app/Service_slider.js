@@ -16,19 +16,19 @@ const Services_slider = () => {
     {
       id: 1,
       title: "Troubleshooting Hydraulic",
-      image: "service(3).png",
+      image: "troubleshooting.png",
       link: "/Service/Troubleshootingof_Hydraulic_systems"
     },
     {
       id: 2,
       title: "Testing Pumps Valves & Motors",
-      image: "gear_pump-motor.avif",
+      image: "pump-repair-testing.png",
       link: "/Service/Testingof_Pumps_Valves_Motors"
     },
     {
       id: 3,
       title: "Reconditioning Hydraulic",
-      image: "service(4).png",
+      image: "reconditioning.png",
       link: "/Service/ReconditioningHydraulic"
     },
     {
@@ -40,7 +40,7 @@ const Services_slider = () => {
      {
       id: 5,
       title: "Commissioning Hydraulic System",
-      image: "service(2).png",
+      image: "commissioning.png",
       link: "/Service/Commissioningof_Hydraulic_Systems"
     }
   ];
@@ -160,7 +160,7 @@ const Services_slider = () => {
         <div className="aurora-service-badge">Our Services</div>
         <h2 className="aurora-service-heading">
             End-to-end manufacturing
-design, engineering,  <br /> production, and quality control
+design, engineering,  <br /> production and quality control
         </h2>
       </div>
 

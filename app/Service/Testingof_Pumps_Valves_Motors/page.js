@@ -31,13 +31,13 @@ const faqs = [
   {
     question: "Why is hydraulic testing important?",
     answer:
-      "Hydraulic testing helps identify performance issues, pressure losses, leakage, and operational faults before major equipment failure occurs.",
+      "Hydraulic testing helps identify performance issues, pressure losses, leakage and operational faults before major equipment failure occurs.",
   },
 
   {
     question: "Which components do you test?",
     answer:
-      "We test hydraulic pumps, valves, motors, cylinders, hydraulic power packs, and complete hydraulic systems.",
+      "We test hydraulic pumps, valves, motors, cylinders, hydraulic power packs and complete hydraulic systems.",
   },
 
   {
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "What parameters are checked during testing?",
     answer:
-      "We check pressure, flow, leakage, temperature, vibration, efficiency, calibration, and overall hydraulic performance.",
+      "We check pressure, flow, leakage, temperature, vibration, efficiency, calibration and overall hydraulic performance.",
   },
 ];
 
@@ -65,10 +65,10 @@ const Testingof_Pumps_Valves_Motors = () => {
 
       {/* Hero Section */}
       <section
-        className="relative h-[85vh] flex items-center bg-cover bg-center"
+        className="relative h-[95vh] flex items-center bg-top bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/index-hero-slider1.webp')",
+            "url('/pump-repair-testing.png')",
         }}
       >
 
@@ -89,9 +89,9 @@ const Testingof_Pumps_Valves_Motors = () => {
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
            We provide professional testing
-            services for hydraulic pumps, valves, and motors to ensure reliable
+            services for hydraulic pumps, valves and motors to ensure reliable
             industrial performance. Our advanced testing procedures help detect
-            faults, improve efficiency, reduce downtime, and ensure safe
+            faults, improve efficiency, reduce downtime and ensure safe
             operation of hydraulic equipment.
           </p>
 
@@ -122,7 +122,7 @@ const Testingof_Pumps_Valves_Motors = () => {
             </h2>
 
             <p className="text-gray-500 mt-5 text-lg">
-              Advanced hydraulic testing solutions for industrial pumps, valves,
+              Advanced hydraulic testing solutions for industrial pumps, valves
               and motors.
             </p>
 

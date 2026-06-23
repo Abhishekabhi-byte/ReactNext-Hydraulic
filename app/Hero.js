@@ -10,28 +10,24 @@ const HeroSection = () => {
     {
       id: 1,
       image: 'home_page_slider1.png',
-      badge: 'Resilient Technical Solution Pvt. Ltd',
       title: 'Your Hydraulics Solution Partner',
       description: ''
     },
     {
       id: 2,
       image: 'home_page_slider.png',
-      badge: 'Resilient Technical Solution Pvt. Ltd',
       title: 'Engineering Reliability into Motion',
       description: ''
     },
     {
       id: 3,
       image: 'index-hero-slider3.png',
-      badge: 'Resilient Technical Solution Pvt. Ltd',
       title: 'Precision. Performance. Progress',
       description: ''
     },
      {
       id: 4,
       image: 'home_page_slider (2).png',
-      badge: 'Resilient Technical Solution Pvt. Ltd',
       title: 'Strong Solutions and Reliable Results',
       description: '',
       className:"contain"
@@ -86,17 +82,15 @@ const HeroSection = () => {
                           className={getSlideClass(index)}
 style={{
   backgroundImage: `url('${slide.image}')`,
-  backgroundSize: `${slide.className} ? contain : cover `,
+  backgroundSize: slide.className === "contain" ? "contain" : "cover",
   backgroundPosition: 'center center',
   backgroundRepeat: 'no-repeat',
   width: '100%',
   height: '100%',
-}}
-                      
+}}      
                         >
                           <div className="heroAurora-overlay"></div>
-                          <div className="heroAurora-content">
-                            <div className="heroAurora-badge">{slide.badge}</div>
+                          <div className="heroAurora-content">                        
                             <h1 className="heroAurora-title">{slide.title}</h1>
                             <p className="heroAurora-text">{slide.description}</p>
                             <div className="heroAurora-buttons">

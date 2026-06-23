@@ -26,7 +26,7 @@ const Parkersection = () => {
           </h2>
 
           <p className="about-parkr-text">
-            We are a trusted distributor of Parker hydraulic products, offering complete solutions including system assembly, reconditioning, fabrication, and maintenance services.
+            We are a trusted distributor of Parker hydraulic products, offering complete solutions including system assembly, reconditioning, fabrication and maintenance services.
           </p>
 
           <ul className="about-parkr-list">

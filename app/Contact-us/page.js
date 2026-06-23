@@ -129,15 +129,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="bg-white border-l-4 border-sky-500 shadow-lg p-8 rounded-3xl">
-                <h4 className="font-bold mb-2">
-                  Digital Enabler
-                </h4>
-
-                <p className="text-sm text-gray-500 italic">
-                  "Leveraging complex data for a sustainable, resilient future."
-                </p>
-              </div>
+              
             </div>
 
             {/* RIGHT FORM (FIXED ONLY LOGIC) */}

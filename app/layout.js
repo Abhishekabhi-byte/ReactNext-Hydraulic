@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Resilient Solution",
+  title: "Resilient ",
   description: "Resilient Solutions provide the best hydraulic machines ",
   keywords: "Parker products, hydraulic products, hydraulic Solution, Solutions of hydraulic in gamharia-jharkhand",
 };

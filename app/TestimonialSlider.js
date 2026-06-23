@@ -3,17 +3,10 @@
 import React, { useState, useEffect } from "react";
 
 const testimonials = [
-  {
-    id: 1,
-    name: "Anil Pandit",
-    designation: "Sales Manager - DH",
-    organisation: "Parker Hannifin India Pvt. Ltd.",
-    description:
-      "Congratulatory note for the success of our team in grabbing the first order for Dryers from Tata Steel.",
-  },
+
 
   {
-    id: 2,
+    id: 1,
     name: "N.R. Saifi",
     designation: "Sr Manager - Help Desk Centre",
     organisation: "Tata Steel",
@@ -30,14 +23,7 @@ const testimonials = [
       "Solved hydraulic power pack issues of Long Travel Unit of Stacker.",
   },
 
-  {
-    id: 5,
-    name: "Soumen Mitra",
-    designation: "Industrial Consultant",
-    organisation: "Parker Hannifin",
-    description:
-      "Encouragement in pushing Tata Steel to buy Parker pumps and valves.",
-  },
+ 
 
   {
     id: 6,

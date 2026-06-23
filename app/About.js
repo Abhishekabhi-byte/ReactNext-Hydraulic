@@ -12,7 +12,7 @@ const About = () => {
         <div className="about-images">
           <div className="about-card">
             <img 
-              src="about-hydraulic.avif" 
+              src="about-hydraulic-banner.png" 
               alt="About Image"
               loading="lazy"
             />

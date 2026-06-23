@@ -11,22 +11,22 @@ const FAQ_section = () => {
     {
       id: 1,
       question: "What services does our company provide ?",
-      answer: "We provide hydraulic system design, repair, maintenance, troubleshooting, installation, training, and supply of hydraulic components and systems."
+      answer: "We provide hydraulic system design, repair, maintenance, troubleshooting, installation, training and supply of hydraulic components and systems."
     },
     {
       id: 2,
       question: "Which industries do we serve ?",
-      answer: "We serve industries such as steel, mining, manufacturing, construction, power plants, automotive, and heavy equipment."
+      answer: "We serve industries such as steel, mining, manufacturing, construction, power plants, automotive and heavy equipment."
     },
     {
       id: 3,
       question: "Do we provide onsite hydraulic repair services ?",
-      answer: "Yes, we offer onsite inspection, troubleshooting, maintenance, and breakdown support services."
+      answer: "Yes, we offer onsite inspection, troubleshooting, maintenance and breakdown support services."
     },
     {
       id: 4,
       question: "What hydraulic components do we repair or supply ?",
-      answer: "We work with hydraulic pumps, motors, cylinders, valves, hoses, power packs, filters, and sealing systems."
+      answer: "We work with hydraulic pumps, motors, cylinders, valves, hoses, power packs, filters and sealing systems."
     },
     {
       id: 5,

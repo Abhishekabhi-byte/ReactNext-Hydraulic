@@ -10,17 +10,17 @@ const WhychooseUs = () => {
       id: 1,
       icon: "⚙️",
       title: "Technical Expertise",
-      description: "We have skilled engineers and technicians with strong knowledge of hydraulic systems, components, design, troubleshooting, and maintenance."
+      description: "We have skilled engineers and technicians with strong knowledge of hydraulic systems, components, design, troubleshooting and maintenance."
     },
     {
       id: 2,
       icon: "🛠️",
       title: "Quality Products & Services",
-      description: "We use high-quality hydraulic pumps, valves, cylinders, hoses, and seals etc. that ensure durability and performance."
+      description: "We use high-quality hydraulic pumps, valves, cylinders, hoses and seals etc. that ensure durability and performance."
     },
     {
       id: 3,
-      icon: "🚢",
+      icon: "🏭",
       title: "Industry Experience",
       description: "We understand industrial requirements and can provide proven solutions for different applications and machinery."
     },
@@ -34,13 +34,13 @@ const WhychooseUs = () => {
       id: 5,
       icon: "✅",
       title: "Use of Modern Technology",
-      description: "We use advanced diagnostic tools, automation, and updated hydraulic technologies improve system efficiency and reliability."
+      description: "We use advanced diagnostic tools, automation, updated hydraulic technologies to improve system efficiency and reliability."
     },
     {
       id: 6,
       icon: "🤝",
       title: "Reliable After-Sales Support",
-      description: "Our quick service support, maintenance assistance, and spare parts availability reduce downtime and improve operational efficiency."
+      description: "Our quick service support, maintenance assistance, spare parts availability reduce downtime and improve operational efficiency."
     }
   ];
 
@@ -50,7 +50,7 @@ const WhychooseUs = () => {
         <div className="aurora-why-header">
           <span className="aurora-why-badge">Why Choose Us</span>
           <h2>Why Resilient Technical Solutions?</h2>
-          <p>Delivering precision engineering, durability, and trusted service across all industrial sections.</p>
+          <p>Delivering precision engineering, durability and trusted service across all industries.</p>
         </div>
 
         <div className="aurora-why-grid">

@@ -8,7 +8,7 @@ const Client_slider = () => {
   const trackRef = useRef(null);
   
   const brands = [
-    { id: 1, name: "Brand 1", image: "/Aditya-birla.jpeg" },
+    { id: 1, name: "Brand 1", image: "Tata-Steel2.png" },
     { id: 2, name: "Brand 2", image: "/Adani_power-client.png" },
     { id: 3, name: "Brand 3", image: "/DVC-client.png" },
     { id: 4, name: "Brand 4", image: "/Flender_Graffenstaden-client.jpeg" },
@@ -24,7 +24,7 @@ const Client_slider = () => {
     { id: 14, name: "Brand 14", image: "/Tata_motor-client.png" },
     { id: 15, name: "Brand 15", image: "/Tata_power-client.jpeg" },
     { id: 16, name: "Brand 16", image: "/tata_bluescope.jpeg" },
-    { id: 17, name: "Brand 17", image: "/tata-steel.jpg" },
+    { id: 17, name: "Brand 17", image: "/Aditya-birla.jpeg" },
        { id: 18, name: "Brand 18", image: "/Ultratech_Cement_Logo-client.svg" },
     
     

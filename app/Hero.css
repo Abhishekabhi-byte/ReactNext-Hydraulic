@@ -53,10 +53,12 @@
   opacity: 0;
   transition: all 1s ease-in-out;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* changed */
   justify-content: flex-start;
-  padding: 0 8%;
+  padding: 80px 8% 0; /* top right/left bottom */
 }
+
+
 
 .heroAurora-slide.active {
   left: 0;
@@ -90,17 +92,6 @@
   opacity: 1;
 }
 
-.heroAurora-badge {
-  background: rgba(255, 255, 255, 0.25);
-  display: inline-block;
-  padding: 6px 14px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 18px;
-  backdrop-filter: blur(5px);
-  color: #fff;
-}
 
 .heroAurora-title {
   font-size: 45px;

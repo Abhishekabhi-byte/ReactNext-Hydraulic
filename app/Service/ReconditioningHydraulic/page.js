@@ -73,7 +73,7 @@ const ReconditioningHydraulic = () => {
     <section
   className="relative min-h-screen pt-24 flex items-center bg-cover bg-top"
   style={{
-    backgroundImage: "url('/service(4).png')",
+    backgroundImage: "url('/reconditioning.png')",
   }}
 >
 
@@ -88,14 +88,14 @@ const ReconditioningHydraulic = () => {
           </span>
 
           <h1 className="text-4xl md:text-7xl font-black mt-5 leading-tight">
-            Reconditioning <br />
-            Hydraulic Systems
+           Reconditioning Hydraulic  <br />
+           components & systems
           </h1>
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
-           We specializes in restoring hydraulic
-            systems with advanced repair, rebuilding, testing, and maintenance
-            solutions. We help industries improve efficiency, reduce downtime,
+           We specialize in restoring hydraulic
+            systems with advanced repair, rebuilding, testing and maintenance
+            solutions. We help industries improve efficiency, reduce downtimeS
             and extend equipment life using precision engineering and reliable
             hydraulic technology.
           </p>
@@ -323,7 +323,7 @@ const ReconditioningHydraulic = () => {
 
             <textarea
               rows="5"
-              placeholder="Describe Your Hydraulic Testing Requirement"
+              placeholder="Describe Your Reconditioning Hydraulic Requirement"
               className="md:col-span-2 text-white border border-gray-500 rounded-xl px-5 py-2 outline-none focus:border-blue-500 resize-none"
             ></textarea>
 

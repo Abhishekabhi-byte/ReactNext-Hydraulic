@@ -64,10 +64,10 @@ const Commissioningof_Hydraulic_Systems = () => {
 
       {/* Hero Section */}
       <section
-        className="relative h-[85vh] flex items-center bg-cover bg-center"
+        className="relative h-[95vh] flex items-center bg-cover bg-top bg-center"
         style={{
           backgroundImage:
-            "url('/service(2).png')",
+            "url('../commissioning.png')",
         }}
       >
 
@@ -78,7 +78,8 @@ const Commissioningof_Hydraulic_Systems = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
 
           <span className="uppercase tracking-[4px] text-blue-400 font-semibold">
-            Hydraulic Commissioning Services
+Commissioning of Hydraulic Systems
+
           </span>
 
           <h1 className="text-4xl md:text-7xl font-black mt-5 leading-tight">
@@ -89,8 +90,8 @@ const Commissioningof_Hydraulic_Systems = () => {
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
             We provides professional
             commissioning services for industrial hydraulic systems. We ensure
-            proper installation, testing, calibration, startup, and operational
-            verification of hydraulic equipment for safe, efficient, and
+            proper installation, testing, calibration, startup and operational
+            verification of hydraulic equipment for safe, efficient and
             reliable industrial performance.
           </p>
 
@@ -322,7 +323,7 @@ const Commissioningof_Hydraulic_Systems = () => {
 
             <textarea
               rows="5"
-              placeholder="Describe Your Hydraulic Testing Requirement"
+              placeholder="Describe Your Commissioning Hydraulic Requirement"
               className="md:col-span-2 text-white border border-gray-500 rounded-xl px-5 py-2 outline-none focus:border-blue-500 resize-none"
             ></textarea>
 

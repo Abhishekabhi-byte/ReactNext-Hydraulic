@@ -9,19 +9,19 @@ const faqs = [
   {
     question: "What is hydraulic troubleshooting?",
     answer:
-      "Hydraulic troubleshooting is the process of diagnosing and resolving issues such as pressure loss, oil leakage, overheating, abnormal noise, and component malfunction in hydraulic systems.",
+      "Hydraulic troubleshooting is the process of diagnosing and resolving issues such as pressure loss, oil leakage, overheating, abnormal noise and component malfunction in hydraulic systems.",
   },
 
   {
     question: "Do you provide on-site troubleshooting support?",
     answer:
-      "Yes, we provide on-site inspection, fault diagnosis, system analysis, and troubleshooting support for industrial hydraulic systems and equipment.",
+      "Yes, we provide on-site inspection, fault diagnosis, system analysis and troubleshooting support for industrial hydraulic systems and equipment.",
   },
 
   {
     question: "Which hydraulic components do you troubleshoot?",
     answer:
-      "We troubleshoot hydraulic pumps, motors, cylinders, valves, accumulators, hydraulic power packs, filtration systems, and complete hydraulic circuits.",
+      "We troubleshoot hydraulic pumps, motors, cylinders, valves, accumulators, hydraulic power packs, filtration systems and complete hydraulic circuits.",
   },
 
   {
@@ -45,10 +45,10 @@ const Troubleshootingof_Hydraulic_systems = () => {
 
       {/* Hero Section */}
       <section
-        className="relative h-[85vh] flex items-center bg-cover bg-center"
+        className="relative h-[85vh] flex items-center bg-top bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/home_page_slider.png')",
+            "url('/troubleshooting.png')",
         }}
       >
 
@@ -71,8 +71,8 @@ const Troubleshootingof_Hydraulic_systems = () => {
             We provides advanced troubleshooting
             solutions for industrial hydraulic systems. Our experts diagnose
             hydraulic pressure loss, leakage, overheating, abnormal vibration,
-            valve malfunction, and pump failures to restore system performance,
-            improve reliability, and reduce equipment downtime.
+            valve malfunction and pump failures to restore system performance,
+            improve reliability and reduce equipment downtime.
           </p>
 
           <div className="flex flex-wrap gap-5 mt-10">
@@ -119,9 +119,9 @@ const Troubleshootingof_Hydraulic_systems = () => {
             </h2>
 
             <p className="text-gray-600 leading-8 text-[15px]">
-              Pressure, flow, and temperature troubleshooting involves checking
-              system pressure levels, ensuring proper fluid flow, and monitoring
-              overheating issues. Inspect pumps, valves, filters, and sensors for
+              Pressure, flow and temperature troubleshooting involves checking
+              system pressure levels, ensuring proper fluid flow and monitoring
+              overheating issues. Inspect pumps, valves, filters and sensors for
               faults. Identify leaks, blockages, or wear. Maintain correct hydraulic
               fluid quality for stable performance.
             </p>
@@ -291,7 +291,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
 
             <textarea
               rows="5"
-              placeholder="Describe Your Hydraulic Testing Requirement"
+              placeholder="Describe Your Troubleshooting Hydraulic Requirement"
               className="md:col-span-2 text-white border border-gray-500 rounded-xl px-5 py-2 outline-none focus:border-blue-500 resize-none"
             ></textarea>
 

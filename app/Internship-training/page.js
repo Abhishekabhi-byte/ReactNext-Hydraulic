@@ -187,7 +187,7 @@ export default function page() {
       The company emphasizes innovation, reliability,
       and long-term performance.
     </p>
-<button className="bg-blue-500 rounded-2xl hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+<button className="bg-blue-500 rounded-2xl text-lg  hover:bg-blue-700 text-white font-bold py-4 px-6 rounded">
       <a href="https://resilient-institute.vercel.app">Visit Website</a>
     </button>
   </div>

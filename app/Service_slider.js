@@ -11,35 +11,36 @@ const Services_slider = () => {
   const trackRef = useRef(null);
   const autoPlayRef = useRef(null);
   const slidesRef = useRef([]);
-  
+
+
   const services = [
     {
       id: 1,
-      title: "Troubleshooting Hydraulic",
+      title: "Troubleshooting Hydraulic systems",
       image: "troubleshooting.png",
       link: "/Service/Troubleshootingof_Hydraulic_systems"
     },
     {
       id: 2,
-      title: "Testing Pumps Valves & Motors",
+      title: "Testing pumps, valves and motors",
       image: "pump-repair-testing.png",
       link: "/Service/Testingof_Pumps_Valves_Motors"
     },
     {
       id: 3,
-      title: "Reconditioning Hydraulic",
+      title: "Reconditioning Hydraulic components & systems",
       image: "reconditioning.png",
       link: "/Service/ReconditioningHydraulic"
     },
     {
       id: 4,
-      title: "Design Hydraulic System",
+      title: "Design of Hydraulic Systems",
       image: "service-design.png",
       link: "/Service/Design_of_Hydraulic_Systems"
     },
      {
       id: 5,
-      title: "Commissioning Hydraulic System",
+      title: "Commissioning Hydraulic Systems",
       image: "commissioning.png",
       link: "/Service/Commissioningof_Hydraulic_Systems"
     }

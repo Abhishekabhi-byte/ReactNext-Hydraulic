@@ -5,22 +5,22 @@ import React, { useState } from "react";
 const features = [
   {
     title: "Custom Hydraulic Power Packs",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   " ",
     desc: "Design and development of efficient hydraulic power packs tailored to industrial machinery,  and heavy-duty applications.",
   },
 
   {
     title: "Hydraulic Circuits",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   " ",
     desc: "Advanced hydraulic circuit planning and optimization for improved pressure control, energy efficiency, and reliable machine operation.",
   },
 
   {
     title: "Manifold block design",
-    image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   " ",
     desc: "Hydraulic Manifold block for reduced piping, hose connections, compact design, improved reliability and Safety.",
   },
 ];
@@ -136,7 +136,7 @@ Design of Hydraulic Systems
                 className="bg-[#f8fafc] rounded-3xl overflow-hidden shadow-lg hover:-translate-y-3 hover:shadow-2xl transition duration-500"
               >
 
-                <div className="overflow-hidden h-64">
+                {/* <div className="overflow-hidden h-64">
 
                   <img
                     src={feature.image}
@@ -144,7 +144,7 @@ Design of Hydraulic Systems
                     className="w-full h-full object-cover hover:scale-110 transition duration-700"
                   />
 
-                </div>
+                </div> */}
 
                 <div className="p-8">
 

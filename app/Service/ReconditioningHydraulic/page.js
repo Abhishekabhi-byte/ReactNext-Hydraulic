@@ -6,22 +6,22 @@ import React, { useState } from "react";
 const features = [
   {
     title: "Pump Reconditioning",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   "",
     desc: "Complete repair and performance restoration of hydraulic pumps for industrial applications.",
   },
 
   {
     title: "Cylinder Repair Reconditioning",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   "",
     desc: "Precision hydraulic cylinder rebuilding with seal replacement and pressure testing.",
   },
 
   {
     title: "Piping & Accessories",
-    image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   "",
     desc: "Piping and Accessories condition assessment and corrective action implementation",
   },
 ];
@@ -138,13 +138,13 @@ const ReconditioningHydraulic = () => {
                 className="bg-[#f8fafc] rounded-3xl overflow-hidden shadow-lg hover:-translate-y-3 hover:shadow-2xl transition duration-500"
               >
 
-                <div className="overflow-hidden h-64">
+                {/* <div className="overflow-hidden h-64">
                   <img
                     src={feature.image}
                     alt={feature.title}
                     className="w-full h-full object-cover hover:scale-110 transition duration-700"
                   />
-                </div>
+                </div> */}
 
                 <div className="p-8">
 

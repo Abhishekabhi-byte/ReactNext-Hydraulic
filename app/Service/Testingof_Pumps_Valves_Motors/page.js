@@ -5,22 +5,22 @@ import React, { useState } from "react";
 const features = [
   {
     title: "Pump Performance Testing",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   "",
     desc: "Comprehensive hydraulic pump testing for pressure, flow, efficiency, leakage, and overall operational performance.",
   },
 
   {
     title: "Valve Testing & Calibration",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   "",
     desc: "Accurate hydraulic valve testing, calibration, pressure setting, and functional analysis for reliable system control.",
   },
 
   {
     title: "Hydraulic Motor Testing",
-    image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
+    // image:
+    //   "",
     desc: "Professional hydraulic motor testing for torque, speed, efficiency, vibration, and operational reliability.",
   },
 ];
@@ -136,7 +136,7 @@ const Testingof_Pumps_Valves_Motors = () => {
                 className="bg-[#f8fafc] rounded-3xl overflow-hidden shadow-lg hover:-translate-y-3 hover:shadow-2xl transition duration-500"
               >
 
-                <div className="overflow-hidden h-64">
+                {/* <div className="overflow-hidden h-64">
 
                   <img
                     src={feature.image}
@@ -144,7 +144,7 @@ const Testingof_Pumps_Valves_Motors = () => {
                     className="w-full h-full object-cover hover:scale-110 transition duration-700"
                   />
 
-                </div>
+                </div> */}
 
                 <div className="p-8">
 

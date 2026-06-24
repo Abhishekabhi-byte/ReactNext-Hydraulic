@@ -68,7 +68,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
           </h1>
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
-            We provides advanced troubleshooting
+            We provide advanced troubleshooting
             solutions for industrial hydraulic systems. Our experts diagnose
             hydraulic pressure loss, leakage, overheating, abnormal vibration,
             valve malfunction and pump failures to restore system performance,

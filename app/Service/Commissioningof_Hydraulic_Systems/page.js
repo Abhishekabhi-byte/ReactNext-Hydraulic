@@ -7,48 +7,48 @@ const features = [
     title: "Hydraulic System Installation",
     // image:
     //   " ",
-    desc: "Professional installation and commissioning of hydraulic systems, power packs, pipelines, valves, and industrial hydraulic equipment.",
+    desc: "Professional installation and commissioning of Hydraulic systems, power packs, pipelines, valves, and industrial Hydraulic equipment.",
   },
 
   {
     title: "System Testing & Calibration",
     // image:
     //   " ",
-    desc: "Complete hydraulic pressure testing, calibration, performance analysis, and operational verification for reliable system performance.",
+    desc: "Complete Hydraulic pressure testing, calibration, performance analysis, and operational verification for reliable system performance.",
   },
 
   {
     title: "Startup & Technical Support",
     // image:
     //   " ",
-    desc: "Expert startup assistance, troubleshooting, operator guidance, and technical support for smooth hydraulic system commissioning.",
+    desc: "Expert startup assistance, troubleshooting, operator guidance, and technical support for smooth Hydraulic system commissioning.",
   },
 ];
 
 
 const faqs = [
   {
-    question: "What is hydraulic system commissioning?",
+    question: "What is Hydraulic system commissioning?",
     answer:
-      "Hydraulic system commissioning is the process of inspecting, testing, calibrating, and starting hydraulic systems to ensure safe and efficient industrial operation.",
+      "Hydraulic system commissioning is the process of inspecting, testing, calibrating, and starting Hydraulic systems to ensure safe and efficient industrial operation.",
   },
 
   {
     question: "Do you provide onsite commissioning support?",
     answer:
-      "Yes, we provide complete onsite hydraulic system commissioning, installation supervision, startup assistance, and technical support.",
+      "Yes, we provide complete onsite Hydraulic system commissioning, installation supervision, startup assistance, and technical support.",
   },
 
   {
-    question: "Which hydraulic systems do you commission?",
+    question: "Which Hydraulic systems do you commission?",
     answer:
-      "We commission hydraulic power packs, cylinders, pumps, valves, hydraulic circuits, industrial machinery systems.",
+      "We commission Hydraulic power packs, cylinders, pumps, valves, Hydraulic circuits, industrial machinery systems.",
   },
 
   {
     question: "Do you provide operator training?",
     answer:
-      "Yes, we provide operator guidance and training to ensure proper hydraulic system handling, maintenance, and safe operation.",
+      "Yes, we provide operator guidance and training to ensure proper Hydraulic system handling, maintenance, and safe operation.",
   },
 ];
 
@@ -88,10 +88,10 @@ Commissioning of Hydraulic Systems
           </h1>
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
-            We provides professional
-            commissioning services for industrial hydraulic systems. We ensure
+            We provide professional
+            commissioning services for industrial Hydraulic systems. We ensure
             proper installation, testing, calibration, startup and operational
-            verification of hydraulic equipment for safe, efficient and
+            verification of Hydraulic equipment for safe, efficient and
             reliable industrial performance.
           </p>
 
@@ -123,7 +123,7 @@ Commissioning of Hydraulic Systems
             </h2>
 
             <p className="text-gray-500 mt-5 text-lg">
-              Professional hydraulic system commissioning and startup solutions
+              Professional Hydraulic system commissioning and startup solutions
               for industrial applications.
             </p>
 
@@ -179,7 +179,7 @@ Commissioning of Hydraulic Systems
             </h2>
 
             <p className="text-gray-300 mt-5 text-lg">
-              Professional hydraulic startup and commissioning process for
+              Professional Hydraulic startup and commissioning process for
               reliable industrial performance.
             </p>
 
@@ -225,7 +225,7 @@ Commissioning of Hydraulic Systems
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Common questions about hydraulic commissioning services.
+              Common questions about Hydraulic commissioning services.
             </p>
 
           </div>
@@ -289,7 +289,7 @@ Commissioning of Hydraulic Systems
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Get professional hydraulic commissioning and startup support from
+              Get professional Hydraulic commissioning and startup support from
               our experienced engineers.
             </p>
 

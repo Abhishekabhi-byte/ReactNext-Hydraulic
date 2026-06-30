@@ -26,14 +26,14 @@ const Parkersection = () => {
           </h2>
 
           <p className="about-parkr-text">
-            We are a trusted distributor of Parker hydraulic products, offering complete solutions including system assembly, reconditioning, fabrication and maintenance services.
+            We are a trusted distributor of Parker Hydraulic products, offering complete solutions including system assembly, reconditioning, fabrication and maintenance services.
           </p>
 
           <ul className="about-parkr-list">
-            <li> Reliable hydraulic systems for diverse industries.</li>
+            <li> Reliable Hydraulic systems for diverse industries.</li>
             <li> High-performance components ensure efficiency.</li>
             <li> Engineered for durability and long service life.</li>
-            <li> Global support and hydraulic expertise worldwide.</li>
+            <li> Global support and Hydraulic expertise worldwide.</li>
           </ul>
 
           <a href="/Parker" className="about-parkr-btn">

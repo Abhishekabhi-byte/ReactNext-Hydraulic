@@ -8,14 +8,14 @@ const features = [
     title: "Pump Reconditioning",
     // image:
     //   "",
-    desc: "Complete repair and performance restoration of hydraulic pumps for industrial applications.",
+    desc: "Complete repair and performance restoration of Hydraulic pumps for industrial applications.",
   },
 
   {
     title: "Cylinder Repair Reconditioning",
     // image:
     //   "",
-    desc: "Precision hydraulic cylinder rebuilding with seal replacement and pressure testing.",
+    desc: "Precision Hydraulic cylinder rebuilding with seal replacement and pressure testing.",
   },
 
   {
@@ -30,15 +30,15 @@ const features = [
 
 const faqs = [
   {
-    question: "What is hydraulic reconditioning?",
+    question: "What is Hydraulic reconditioning?",
     answer:
-      "Hydraulic reconditioning is the process of repairing and restoring hydraulic equipment to improve performance and extend lifespan.",
+      "Hydraulic reconditioning is the process of repairing and restoring Hydraulic equipment to improve performance and extend lifespan.",
   },
 
   {
     question: "Do you provide emergency support?",
     answer:
-      "Yes, we provide 24/7 emergency technical support for industrial hydraulic systems.",
+      "Yes, we provide 24/7 emergency technical support for industrial Hydraulic systems.",
   },
 
   {
@@ -50,7 +50,7 @@ const faqs = [
   {
     question: "Do you use genuine components?",
     answer:
-      "Yes, we use high-quality and genuine hydraulic components for reliability and durability.",
+      "Yes, we use high-quality and genuine Hydraulic components for reliability and durability.",
   },
   
 ];
@@ -93,11 +93,11 @@ const ReconditioningHydraulic = () => {
           </h1>
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
-           We specialize in restoring hydraulic
+           We specialize in restoring Hydraulic
             systems with advanced repair, rebuilding, testing and maintenance
             solutions. We help industries improve efficiency, reduce downtimeS
             and extend equipment life using precision engineering and reliable
-            hydraulic technology.
+            Hydraulic technology.
           </p>
 
           <div className="flex flex-wrap gap-5 mt-10">
@@ -126,7 +126,7 @@ const ReconditioningHydraulic = () => {
             </h2>
 
             <p className="text-gray-500 mt-5 text-lg">
-              Advanced hydraulic repair and rebuilding solutions for industries.
+              Advanced Hydraulic repair and rebuilding solutions for industries.
             </p>
           </div>
 
@@ -148,7 +148,7 @@ const ReconditioningHydraulic = () => {
 
                 <div className="p-8">
 
-                  <h3 className="text-2xl font-bold text-[#0a192f] mb-4">
+                  <h3 className="text-xl font-bold text-[#0a192f] mb-4">
                     {feature.title}
                   </h3>
 
@@ -177,7 +177,7 @@ const ReconditioningHydraulic = () => {
             </h2>
 
             <p className="text-gray-300 mt-5 text-lg">
-              Simple and efficient hydraulic servicing process.
+              Simple and efficient Hydraulic servicing process.
             </p>
 
           </div>
@@ -226,7 +226,7 @@ const ReconditioningHydraulic = () => {
       </h2>
 
       <p className="text-gray-500 mt-4 text-lg">
-        Common questions about hydraulic reconditioning services.
+        Common questions about Hydraulic reconditioning services.
       </p>
 
     </div>
@@ -290,7 +290,7 @@ const ReconditioningHydraulic = () => {
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Get professional hydraulic consultation and industrial support.
+              Get professional Hydraulic consultation and industrial support.
             </p>
 
           </div>

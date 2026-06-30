@@ -10,13 +10,13 @@ const WhychooseUs = () => {
       id: 1,
       icon: "⚙️",
       title: "Technical Expertise",
-      description: "We have skilled engineers and technicians with strong knowledge of hydraulic systems, components, design, troubleshooting and maintenance."
+      description: "We have skilled engineers and technicians with strong knowledge of Hydraulic systems, components, design, troubleshooting and maintenance."
     },
     {
       id: 2,
       icon: "🛠️",
       title: "Quality Products & Services",
-      description: "We use high-quality hydraulic pumps, valves, cylinders, hoses and seals etc. that ensure durability and performance."
+      description: "We use high-quality Hydraulic pumps, valves, cylinders, hoses and seals etc. that ensure durability and performance."
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const WhychooseUs = () => {
       id: 5,
       icon: "✅",
       title: "Use of Modern Technology",
-      description: "We use advanced diagnostic tools, automation, updated hydraulic technologies to improve system efficiency and reliability."
+      description: "We use advanced diagnostic tools, automation, updated Hydraulic technologies to improve system efficiency and reliability."
     },
     {
       id: 6,

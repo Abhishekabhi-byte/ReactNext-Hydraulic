@@ -20,7 +20,7 @@ const testimonials = [
     designation: "Dy GM (Mechanical)",
     organisation: "SAIL - Bolani",
     description:
-      "Solved hydraulic power pack issues of Long Travel Unit of Stacker.",
+      "Solved Hydraulic power pack issues of Long Travel Unit of Stacker.",
   },
 
  
@@ -130,7 +130,7 @@ const testimonials = [
     designation: "Project Lead",
     organisation: "Jindal Steel & Power Ltd.",
     description:
-      "Successfully executed hydraulic cylinder supply project.",
+      "Successfully executed Hydraulic cylinder supply project.",
   },
 
   {
@@ -139,7 +139,7 @@ const testimonials = [
     designation: "Maintenance Specialist",
     organisation: "Brahmani River Pellets Ltd.",
     description:
-      "Successfully repaired high-pressure hydraulic cylinder.",
+      "Successfully repaired high-pressure Hydraulic cylinder.",
   },
 
   {
@@ -148,7 +148,7 @@ const testimonials = [
     designation: "Head P&C SMLP",
     organisation: "Tata Steel - KPO",
     description:
-      "Reverse engineered and supplied hydraulic cylinder within 10 days.",
+      "Reverse engineered and supplied Hydraulic cylinder within 10 days.",
   },
 
   {
@@ -157,7 +157,7 @@ const testimonials = [
     designation: "Head MED",
     organisation: "Tata Steel - KPO",
     description:
-      "Resolved recurring hydraulic cylinder failures through redesign.",
+      "Resolved recurring Hydraulic cylinder failures through redesign.",
   },
 
   {
@@ -175,7 +175,7 @@ const testimonials = [
     designation: "Maintenance Team",
     organisation: "Ultratech Cement Limited",
     description:
-      "Successfully refurbished hydraulic cylinder of Wagon Tippler.",
+      "Successfully refurbished Hydraulic cylinder of Wagon Tippler.",
   },
 
   {
@@ -184,7 +184,7 @@ const testimonials = [
     designation: "Plant Head",
     organisation: "HPC Biofuels Ltd.",
     description:
-      "Successfully refurbished hydraulic cylinder of Cainless Diffuser.",
+      "Successfully refurbished Hydraulic cylinder of Cainless Diffuser.",
   },
 
   {
@@ -193,7 +193,7 @@ const testimonials = [
     designation: "Asst Workshop Manager",
     organisation: "Rail Wheel Plant, Bela",
     description:
-      "Advanced hydraulic training and vibration issue resolution.",
+      "Advanced Hydraulic training and vibration issue resolution.",
   },
 
   {

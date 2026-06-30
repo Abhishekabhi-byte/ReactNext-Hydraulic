@@ -7,27 +7,27 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is hydraulic troubleshooting?",
+    question: "What is Hydraulic troubleshooting?",
     answer:
-      "Hydraulic troubleshooting is the process of diagnosing and resolving issues such as pressure loss, oil leakage, overheating, abnormal noise and component malfunction in hydraulic systems.",
+      "Hydraulic troubleshooting is the process of diagnosing and resolving issues such as pressure loss, oil leakage, overheating, abnormal noise and component malfunction in Hydraulic systems.",
   },
 
   {
     question: "Do you provide on-site troubleshooting support?",
     answer:
-      "Yes, we provide on-site inspection, fault diagnosis, system analysis and troubleshooting support for industrial hydraulic systems and equipment.",
+      "Yes, we provide on-site inspection, fault diagnosis, system analysis and troubleshooting support for industrial Hydraulic systems and equipment.",
   },
 
   {
-    question: "Which hydraulic components do you troubleshoot?",
+    question: "Which Hydraulic components do you troubleshoot?",
     answer:
-      "We troubleshoot hydraulic pumps, motors, cylinders, valves, accumulators, hydraulic power packs, filtration systems and complete hydraulic circuits.",
+      "We troubleshoot Hydraulic pumps, motors, cylinders, valves, accumulators, Hydraulic power packs, filtration systems and complete Hydraulic circuits.",
   },
 
   {
-    question: "Can you solve recurring hydraulic failures?",
+    question: "Can you solve recurring Hydraulic failures?",
     answer:
-      "Yes, our experts perform root cause analysis to identify recurring hydraulic problems and provide long-term corrective solutions for reliable operation.",
+      "Yes, our experts perform root cause analysis to identify recurring Hydraulic problems and provide long-term corrective solutions for reliable operation.",
   },
 ];
 
@@ -69,8 +69,8 @@ const Troubleshootingof_Hydraulic_systems = () => {
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
             We provide advanced troubleshooting
-            solutions for industrial hydraulic systems. Our experts diagnose
-            hydraulic pressure loss, leakage, overheating, abnormal vibration,
+            solutions for industrial Hydraulic systems. Our experts diagnose
+            Hydraulic pressure loss, leakage, overheating, abnormal vibration,
             valve malfunction and pump failures to restore system performance,
             improve reliability and reduce equipment downtime.
           </p>
@@ -99,7 +99,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
           {/* Image Left */}
           <div className="md:w-1/2 relative h-72 md:h-auto overflow-hidden">
             <Image
-              src="/about-hydraulic-banner.png"
+              src="/about-Hydraulic-banner.png"
               alt="Hydraulic Service"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -122,7 +122,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
               Pressure, flow and temperature troubleshooting involves checking
               system pressure levels, ensuring proper fluid flow and monitoring
               overheating issues. Inspect pumps, valves, filters and sensors for
-              faults. Identify leaks, blockages, or wear. Maintain correct hydraulic
+              faults. Identify leaks, blockages, or wear. Maintain correct Hydraulic
               fluid quality for stable performance.
             </p>
 
@@ -149,7 +149,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
             </h2>
 
             <p className="text-gray-300 mt-5 text-lg">
-              Systematic and efficient hydraulic fault diagnosis process.
+              Systematic and efficient Hydraulic fault diagnosis process.
             </p>
 
           </div>
@@ -194,7 +194,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Common questions about hydraulic troubleshooting services and solutions.
+              Common questions about Hydraulic troubleshooting services and solutions.
             </p>
 
           </div>
@@ -258,7 +258,7 @@ const Troubleshootingof_Hydraulic_systems = () => {
             </h2>
 
             <p className="text-gray-500  mt-4 text-lg">
-              Get professional hydraulic troubleshooting support and industrial consultation from our experts.
+              Get professional Hydraulic troubleshooting support and industrial consultation from our experts.
             </p>
 
           </div>

@@ -39,9 +39,9 @@ const About_us = () => {
             </h2>
 
             <p className="text-gray-700 mb-5 leading-7">
-              Founded by Mr. R. A. Agarwal, a mechanical engineer with extensive expertise in hydraulics and filtration systems, RESILIENT has built a strong reputation for delivering reliable industrial solutions.
+              Founded by Mr. R. A. Agarwal, a mechanical engineer with extensive expertise in Hydraulics and filtration systems, RESILIENT has built a strong reputation for delivering reliable industrial solutions.
 With a long-standing association with Parker Hannifin since 1997, Mr. Agarwal was among the first distributors of Parker products in India. This experience provided deep industry insight and helped shape the company’s technical foundation.
-Over the years, it became clear that industries required more than just hydraulic and pneumatic products — they needed dependable technical partners capable of offering complete engineering and service solutions.
+Over the years, it became clear that industries required more than just Hydraulic and pneumatic products — they needed dependable technical partners capable of offering complete engineering and service solutions.
             </p>
 
             <p className="text-gray-700 mb-5 leading-7">           
@@ -100,7 +100,7 @@ services under one roof. Today, the company stands as one of the pioneering tech
               </h3>
 
               <p className="text-gray-600 leading-7">
-                Delivering reliable and high-performance hydraulic systems for modern industries.
+                Delivering reliable and high-performance Hydraulic systems for modern industries.
               </p>
             </div>
 

@@ -7,21 +7,21 @@ const features = [
     title: "Pump Performance Testing",
     // image:
     //   "",
-    desc: "Comprehensive hydraulic pump testing for pressure, flow, efficiency, leakage, and overall operational performance.",
+    desc: "Comprehensive Hydraulic pump testing for pressure, flow, efficiency, leakage, and overall operational performance.",
   },
 
   {
     title: "Valve Testing & Calibration",
     // image:
     //   "",
-    desc: "Accurate hydraulic valve testing, calibration, pressure setting, and functional analysis for reliable system control.",
+    desc: "Accurate Hydraulic valve testing, calibration, pressure setting, and functional analysis for reliable system control.",
   },
 
   {
     title: "Hydraulic Motor Testing",
     // image:
     //   "",
-    desc: "Professional hydraulic motor testing for torque, speed, efficiency, vibration, and operational reliability.",
+    desc: "Professional Hydraulic motor testing for torque, speed, efficiency, vibration, and operational reliability.",
   },
 ];
 
@@ -29,7 +29,7 @@ const features = [
 
 const faqs = [
   {
-    question: "Why is hydraulic testing important?",
+    question: "Why is Hydraulic testing important?",
     answer:
       "Hydraulic testing helps identify performance issues, pressure losses, leakage and operational faults before major equipment failure occurs.",
   },
@@ -37,19 +37,19 @@ const faqs = [
   {
     question: "Which components do you test?",
     answer:
-      "We test hydraulic pumps, valves, motors, cylinders, hydraulic power packs and complete hydraulic systems.",
+      "We test Hydraulic pumps, valves, motors, cylinders, Hydraulic power packs and complete Hydraulic systems.",
   },
 
   {
-    question: "Do you provide onsite hydraulic testing?",
+    question: "Do you provide onsite Hydraulic testing?",
     answer:
-      "Yes, we provide both onsite and workshop hydraulic testing services for industrial applications.",
+      "Yes, we provide both onsite and workshop Hydraulic testing services for industrial applications.",
   },
 
   {
     question: "What parameters are checked during testing?",
     answer:
-      "We check pressure, flow, leakage, temperature, vibration, efficiency, calibration and overall hydraulic performance.",
+      "We check pressure, flow, leakage, temperature, vibration, efficiency, calibration and overall Hydraulic performance.",
   },
 ];
 
@@ -89,10 +89,10 @@ const Testingof_Pumps_Valves_Motors = () => {
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
            We provide professional testing
-            services for hydraulic pumps, valves and motors to ensure reliable
+            services for Hydraulic pumps, valves and motors to ensure reliable
             industrial performance. Our advanced testing procedures help detect
             faults, improve efficiency, reduce downtime and ensure safe
-            operation of hydraulic equipment.
+            operation of Hydraulic equipment.
           </p>
 
           <div className="flex flex-wrap gap-5 mt-10">
@@ -122,7 +122,7 @@ const Testingof_Pumps_Valves_Motors = () => {
             </h2>
 
             <p className="text-gray-500 mt-5 text-lg">
-              Advanced hydraulic testing solutions for industrial pumps, valves
+              Advanced Hydraulic testing solutions for industrial pumps, valves
               and motors.
             </p>
 
@@ -177,7 +177,7 @@ const Testingof_Pumps_Valves_Motors = () => {
             </h2>
 
             <p className="text-gray-300 mt-5 text-lg">
-              Professional hydraulic testing process for accurate performance
+              Professional Hydraulic testing process for accurate performance
               evaluation and fault analysis.
             </p>
 
@@ -223,7 +223,7 @@ const Testingof_Pumps_Valves_Motors = () => {
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Common questions about hydraulic testing services.
+              Common questions about Hydraulic testing services.
             </p>
 
           </div>
@@ -287,7 +287,7 @@ const Testingof_Pumps_Valves_Motors = () => {
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Get professional hydraulic testing and technical support from our
+              Get professional Hydraulic testing and technical support from our
               experienced engineering team.
             </p>
 

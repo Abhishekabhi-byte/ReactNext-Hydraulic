@@ -7,14 +7,14 @@ const features = [
     title: "Custom Hydraulic Power Packs",
     // image:
     //   " ",
-    desc: "Design and development of efficient hydraulic power packs tailored to industrial machinery,  and heavy-duty applications.",
+    desc: "Design and development of efficient Hydraulic power packs tailored to industrial machinery,  and heavy-duty applications.",
   },
 
   {
     title: "Hydraulic Circuits",
     // image:
     //   " ",
-    desc: "Advanced hydraulic circuit planning and optimization for improved pressure control, energy efficiency, and reliable machine operation.",
+    desc: "Advanced Hydraulic circuit planning and optimization for improved pressure control, energy efficiency, and reliable machine operation.",
   },
 
   {
@@ -29,15 +29,15 @@ const features = [
 
 const faqs = [
   {
-    question: "What is hydraulic system design?",
+    question: "What is Hydraulic system design?",
     answer:
-      "Hydraulic system design involves planning and developing hydraulic circuits, power packs, actuators, valves, and control systems for industrial applications and machinery.",
+      "Hydraulic system design involves planning and developing Hydraulic circuits, power packs, actuators, valves, and control systems for industrial applications and machinery.",
   },
 
   {
-    question: "Do you design custom hydraulic systems?",
+    question: "Do you design custom Hydraulic systems?",
     answer:
-      "Yes, we provide complete custom hydraulic system design solutions based on industrial requirements, machine capacity, and operational conditions.",
+      "Yes, we provide complete custom Hydraulic system design solutions based on industrial requirements, machine capacity, and operational conditions.",
   },
 
   {
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "Do you provide installation and commissioning support?",
     answer:
-      "Yes, we provide complete support including hydraulic system design, installation guidance, testing, commissioning, and technical assistance.",
+      "Yes, we provide complete support including Hydraulic system design, installation guidance, testing, commissioning, and technical assistance.",
   },
 ];
 
@@ -89,8 +89,8 @@ Design of Hydraulic Systems
 
           <p className="max-w-3xl mt-8 text-lg leading-8 text-gray-300">
             We specialize in designing advanced
-            hydraulic systems for industrial applications. We provide customized
-            hydraulic power packs, hydraulic circuits, and
+            Hydraulic systems for industrial applications. We provide customized
+            Hydraulic power packs, Hydraulic circuits, and
             fluid power solutions that improve efficiency, reliability, safety,
             and machine performance.
           </p>
@@ -122,7 +122,7 @@ Design of Hydraulic Systems
             </h2>
 
             <p className="text-gray-500 mt-5 text-lg">
-              Advanced hydraulic engineering and custom system design solutions
+              Advanced Hydraulic engineering and custom system design solutions
               for industrial applications.
             </p>
 
@@ -179,7 +179,7 @@ Design of Hydraulic Systems
             </h2>
 
             <p className="text-gray-300 mt-5 text-lg">
-              Professional and systematic hydraulic engineering process for
+              Professional and systematic Hydraulic engineering process for
               reliable industrial performance.
             </p>
 
@@ -225,7 +225,7 @@ Design of Hydraulic Systems
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Common questions about hydraulic system design and engineering
+              Common questions about Hydraulic system design and engineering
               services.
             </p>
 
@@ -290,7 +290,7 @@ Design of Hydraulic Systems
             </h2>
 
             <p className="text-gray-500 mt-4 text-lg">
-              Get professional hydraulic system design consultation and
+              Get professional Hydraulic system design consultation and
               engineering support from our experts.
             </p>
 

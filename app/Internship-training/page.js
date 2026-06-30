@@ -8,9 +8,11 @@ import { BsCashCoin } from "react-icons/bs";
 export default function page() {
 
   const slides = [
-    "https://hydraulic-eta.vercel.app/_next/image?url=%2Fr6.jpg&w=1920&q=75",
-    "https://hydraulic-eta.vercel.app/_next/image?url=%2Fr2.jpg&w=1920&q=75",
-    "	https://hydraulic-eta.vercel.app/_next/image?url=%2Fr5.jpg&w=1920&q=75"
+     "/training.png",
+    "/service1.png",
+    "/resilient-teach.jpg",
+    "/hyra-tool.png"
+   
   ]
 
   const [current, setCurrent] = useState(0)
@@ -37,9 +39,9 @@ export default function page() {
     {
       id: 2,
       icon: "🏠",
-      title: "Acommodation Available",
+      title: "Accommodation Available",
       description:
-        "Comfortable accommodation facilities available for outstation students."
+        "Comfortable accommodation facilities  for outstation students subject to availability."
     },
     {
       id: 3,
@@ -81,24 +83,24 @@ export default function page() {
       id: 1,
       question: "What courses do we offer?",
       answer:
-        "We offer short term training courses for corporates and diploma courses for freshers."
+        "We offer short term training courses for corporates and certificate courses for freshers."
     },
     {
       id: 2,
-      question:"What aspects of hydraulics do we cover?",
-      answer: "We cover industrial and mobile hydraulics basics, construction , design, maintenance, troubleshooting and practical training."
+      question:"What aspects of Hydraulics do we cover?",
+      answer: "We cover industrial and mobile Hydraulics basics, construction , design, maintenance, troubleshooting and practical training."
     },
     {
       id: 3,
       question: "Is practical training included in the course?",
       answer:
-        "Yes, our training programs include hands-on practical sessions with industrial hydraulic equipment."
+        "Yes, our training programs include hands-on practical sessions with industrial Hydraulic equipment."
     },
     {
       id: 4,
-      question: "Who can join the hydraulic training program?",
+      question: "Who can join the Hydraulic training program?",
       answer:
-        "Diploma holders, ITI students, engineers, technicians, and industry professionals can join."
+        "10+2, Diploma holders,  ITI students, engineers, technicians, and industry professionals can join."
     },
     {
       id: 5,
@@ -138,7 +140,7 @@ export default function page() {
             key={index}
             src={slide}
             alt="slider"
-            className="w-full lg:h-[600px] md:h-[500px] sm:h-[400px] h-[350px] object-cover flex-shrink-0"
+            className="w-full lg:h-[600px] md:h-[500px] sm:h-[400px] h-[350px] object-cover  flex-shrink-0"
           />
         ))}
 
@@ -226,22 +228,22 @@ export default function page() {
     {/* Card 1 */}
     <div className="bg-white rounded-2xl p-6 shadow-lg hover:scale-105 transition duration-300">
 
-        <img
-    src="https://hydraulic-eta.vercel.app/_next/image?url=%2Fr5.jpg&w=3840&q=75"
+        {/* <img
+    src="https://Hydraulic-eta.vercel.app/_next/image?url=%2Fr5.jpg&w=3840&q=75"
     alt="Curriculum"
     className="w-full h-52 object-cover rounded-xl mb-5"
-  />
+  /> */}
 
       <h2 className="text-2xl font-bold text-blue-800 mb-4 text-center">
-        CURRICULUM
+        Hydraulic Technician Course
       </h2>
 
       <p className="text-gray-700 leading-6 text-justify text-center">
-      Hydraulic technician certificate course
+    
 One year full time course
 Eligibility : 10 + 2 / ITI
 Approved by IISSSC(NCVET/NSQF)
-Recognized By PARKAR HANNIFIN INDIA PVT. LTD
+Recognized By PARKER HANNIFIN INDIA PVT. LTD
 A multinational company Pioneer in the field of Hydraulics
       </p>
 
@@ -249,14 +251,14 @@ A multinational company Pioneer in the field of Hydraulics
 
     {/* Card 2 */}
     <div className="bg-white rounded-2xl p-6 shadow-lg hover:scale-105 transition duration-300">
-      <img 
-      src="https://hydraulic-eta.vercel.app/_next/image?url=%2Fr3.jpg&w=3840&q=75"
+      {/* <img 
+      src="https://Hydraulic-eta.vercel.app/_next/image?url=%2Fr3.jpg&w=3840&q=75"
       alt="CORPORATE TRAININGS"
       className="w-full h-52 object-cover rounded-xl mb-5"
-      />
+      /> */}
 
       <h2 className="text-2xl font-bold text-blue-800 mb-4 text-center">
-        CORPORATE TRAININGS
+        Corporate Training
       </h2>
 
       <p className="text-gray-700 leading-6 text-justify text-center">
@@ -272,23 +274,20 @@ Troubleshooting Hydraulics - 03 Days
 
     {/* Card 3 */}
     <div className="bg-white rounded-2xl p-6 shadow-lg hover:scale-105 transition duration-300">
-  <img 
-      src="https://hydraulic-eta.vercel.app/_next/image?url=%2Fr4.jpg&w=3840&q=75"
+  {/* <img 
+      src="https://Hydraulic-eta.vercel.app/_next/image?url=%2Fr4.jpg&w=3840&q=75"
       alt="CORPORATE TRAININGS"
       className="w-full h-52 object-cover rounded-xl mb-5"
-      />
+      /> */}
 
       <h2 className="text-2xl font-bold text-blue-800 mb-4 text-center">
         Learn And Earn Scheme
       </h2>
 
       <p className="text-gray-700 leading-6 text-justify text-center">
-    Four Module Training
-Eligible for Learn & Earn Scheme from third module
-50% Fee Reimbursement
-Subject to qulifing a test, he gets a reimbursement of 50% of the course fee for that module in lieu of working for4 hours a day
-Hands-on Experiences
-Hands-on working experience, real life working conditions
+In Four Module Training course, one is eligible for Learn & Earn Scheme from third module. 50% Fee Reimbursement can be had subject to 
+qualifying a test. A reimbursement of 50% of the course fee for that module is available in lieu
+ of working for 4 hours a day. It provides Hands-on working experience under real life working conditions.
       </p>
 
     </div>
@@ -369,13 +368,13 @@ Hands-on working experience, real life working conditions
       {/* Heading */}
       <div className="text-center mb-12">
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-4xl md:text-4xl font-bold text-white">
 
           <span className="text-gray-300">
-            OUR
+                 FAQs
           </span>{" "}
           
-          FAQS
+   
 
         </h2>
 
@@ -410,7 +409,7 @@ Hands-on working experience, real life working conditions
             {/* Answer */}
             {activeIndex === index && (
 
-              <p className="text-gray-300 leading-7 mt-5">
+              <p className="text-gray-300 leading-7 mt-3">
                 {faq.answer}
               </p>
 

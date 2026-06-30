@@ -11,7 +11,7 @@ const FAQ_section = () => {
     {
       id: 1,
       question: "What services does our company provide ?",
-      answer: "We provide hydraulic system design, repair, maintenance, troubleshooting, installation, training and supply of hydraulic components and systems."
+      answer: "We provide Hydraulic system design, repair, maintenance, troubleshooting, installation, training and supply of Hydraulic components and systems."
     },
     {
       id: 2,
@@ -20,13 +20,13 @@ const FAQ_section = () => {
     },
     {
       id: 3,
-      question: "Do we provide onsite hydraulic repair services ?",
+      question: "Do we provide onsite Hydraulic repair services ?",
       answer: "Yes, we offer onsite inspection, troubleshooting, maintenance and breakdown support services."
     },
     {
       id: 4,
-      question: "What hydraulic components do we repair or supply ?",
-      answer: "We work with hydraulic pumps, motors, cylinders, valves, hoses, power packs, filters and sealing systems."
+      question: "What Hydraulic components do we repair or supply ?",
+      answer: "We work with Hydraulic pumps, motors, cylinders, valves, hoses, power packs, filters and sealing systems."
     },
     {
       id: 5,

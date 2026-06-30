@@ -119,6 +119,9 @@
   display: inline-block;
 }
 
+.aurora-service-caption h3{
+  font-size: 15px;
+}
 .aurora-learn:hover {
   color: #0094ff;
   transform: translateX(5px);
